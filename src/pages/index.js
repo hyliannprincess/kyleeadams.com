@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle>
       <p>Portfolio site in development.</p>
 
     </Layout>

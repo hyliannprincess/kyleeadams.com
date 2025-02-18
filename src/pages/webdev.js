@@ -5,9 +5,9 @@ import { Link } from 'gatsby'
 
 
 // Step 2: Define your component
-const AboutPage = () => {
+const WebPage = () => {
   return (
-    <Layout pageTitle="About Me">
+    <Layout pageTitle="Web Dev">
       <p></p>
 
     </Layout>
@@ -16,9 +16,9 @@ const AboutPage = () => {
 
 export const Head = () => (
     <>
-      <title>About Me</title>
+      <title>Wev Dev</title>
       <meta name="description" content="Your description" />
     </>
   )
 // Step 3: Export your component
-export default AboutPage
+export default WebPage
